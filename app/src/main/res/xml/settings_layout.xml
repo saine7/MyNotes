@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="boldChecked"
+        android:title="Check for bold"
+        android:summary="To make to font style bold check the box"
+        android:defaultValue="false"
+
+        >
+
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:key="textSize"
+        android:title="Font size"
+        android:defaultValue="16"
+        android:entries="@array/fontSizes"
+        android:entryValues="@array/fontSizeValues"
+        ></ListPreference>
+</PreferenceScreen>
